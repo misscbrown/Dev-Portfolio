@@ -198,7 +198,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-dark);
+    background: var(--clr-accent);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -252,11 +252,6 @@ header {
     box-shadow: var(--bs);
     box-shadow: inset;
 
-    /* /* grid-area: img; */
-        /* max-width: 130%; */
-        /* margin-top: 2em;
-        position: relative;
-        z-index: 2; */ 
 }
 
 .section__subtitle--intro {
