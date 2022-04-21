@@ -9,5 +9,5 @@ This portfolio has been created using HTML, CSS and Javascript.
 
 Contact: djmisscbrown@hotmail.com 
 
-![screenshot](/Images/screenshot1.png)
-![screenshot](/Images/screenshot2.png)
+![screenshot](/Public/Images/screenshot1.png)
+![screenshot](/Public/Images/screenshot2.png)
