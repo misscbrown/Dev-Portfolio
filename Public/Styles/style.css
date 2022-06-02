@@ -239,9 +239,6 @@ header {
 
 
 
-
-
-
 /* intro section */
 
 .intro {
@@ -469,6 +466,118 @@ header {
 .social-list__link {
     padding: .5em;
 }
+
+/* buttons for repositories */
+.new-btn {
+    position: absolute;
+    margin-top: -1.5em;
+    margin-left: 36em;
+    margin-bottom: -2em;
+    background-color: var(--clr-accent);
+    color: black;
+    padding: .3em .6em;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+    border: none;
+    letter-spacing: 2px;
+      
+
+}
+
+.new-btn:hover {
+    transform: scale(1.5)
+}
+
+.hack-btn {
+    position: absolute;
+    margin-top: -1.5em;
+    margin-left: 14em;
+    margin-bottom: -2em;
+    background-color: var(--clr-accent);
+    color: black;
+    padding: .3em .6em;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+    border: none;
+    letter-spacing: 2px;
+
+}
+
+.hack-btn:hover {
+    transform: scale(1.5)
+}
+
+.readme-btn {
+    position: absolute;
+    margin-top: -1.5em;
+    margin-left: 58em;
+    margin-bottom: -2em;
+    background-color: var(--clr-accent);
+    color: black;
+    padding: .3em .6em;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.readme-btn:hover {
+    transform: scale(1.5)
+}
+
+.weather-btn {
+    position: absolute;
+    margin-top: 44em;
+    margin-left: 14em;
+    background-color: var(--clr-accent);
+    color: black;
+    padding: .3em .6em;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.weather-btn:hover {
+    transform: scale(1.5)
+}
+
+.ecommerce-btn {
+    position: absolute;
+    margin-top: 44em;
+    margin-left: 36em;
+    background-color: var(--clr-accent);
+    color: black;
+    padding: .3em .6em;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.ecommerce-btn:hover {
+    transform: scale(1.5)
+}
+
+.scheduler-btn {
+    position: absolute;
+    margin-top: 44em;
+    margin-left: 58em;
+    background-color: var(--clr-accent);
+    color: black;
+    padding: .3em .6em;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.scheduler-btn:hover {
+    transform: scale(1.5)
+}
+
+
+
 
 
 
