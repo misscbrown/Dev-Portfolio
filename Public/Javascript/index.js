@@ -10,3 +10,26 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
+
+// repository buttons
+document.getElementById("repo-btn").onclick = function () {
+    location.href = "https://github.com/LanguageBytes/Junior-Dev-Job-Search-Engine";
+}
+
+document.getElementById("hack-btn").onclick = function () {
+    location.href = "https://github.com/Farhiya1/Hackathon-Suite";
+}
+
+document.getElementById("readme-btn").onclick = function () {
+    location.href = "https://github.com/misscbrown/Readme-Creator";
+}
+
+document.getElementById("ecommerce-btn").onclick = function () {
+    location.href = "https://github.com/misscbrown/e-commerce-back-end";
+}
+
+document.getElementById("scheduler-btn").onclick = function () {
+    location.href = "https://github.com/misscbrown/Work-Day-Scheduler";
+}
+
+
