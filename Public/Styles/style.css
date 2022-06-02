@@ -468,6 +468,7 @@ header {
 }
 
 /* buttons for repositories */
+@media (min-width: 600px) {
 .new-btn {
     position: absolute;
     margin-top: -1.5em;
@@ -574,6 +575,7 @@ header {
 
 .scheduler-btn:hover {
     transform: scale(1.5)
+}
 }
 
 
