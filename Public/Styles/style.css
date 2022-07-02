@@ -241,6 +241,7 @@ header {
 
 /* intro section */
 
+@media (min-width: 600px) {
 .intro {
     position: relative
 }
@@ -257,6 +258,7 @@ header {
     margin-left: -4em;
     margin-right: -4em;
     
+}
 }
 
 @media (min-width: 600px) {
@@ -468,31 +470,11 @@ header {
 }
 
 /* buttons for repositories */
-@media (min-width: 600px) {
-.new-btn {
-    position: absolute;
-    margin-top: -1.5em;
-    margin-left: 36em;
-    margin-bottom: -2em;
-    background-color: var(--clr-accent);
-    color: black;
-    padding: .3em .6em;
-    cursor: pointer;
-    transition: transform 300ms ease-in-out;
-    border: none;
-    letter-spacing: 2px;
-      
+/* @media (min-width: 600px) {  */
 
-}
-
-.new-btn:hover {
-    transform: scale(1.5)
-}
 
 .one-hack-btn {
     position: absolute;
-  /* top: 269%; */
-  /* left: 10%;  */
   margin-left: 3.2em;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -527,13 +509,5 @@ header {
   transition: transform 300ms ease-in-out;
 }
 
-}
-
-
-
-
-
-
-
-
+/* } */
 
