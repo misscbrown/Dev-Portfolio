@@ -11,13 +11,15 @@ navLinks.forEach(link => {
     })
 })
 
-// repository buttons
-document.getElementById("repo-btn").onclick = function () {
-    location.href = "https://github.com/LanguageBytes/Junior-Dev-Job-Search-Engine";
-}
+// repository and deployment button
+
 
 document.getElementById("hack-btn").onclick = function () {
     location.href = "https://github.com/Farhiya1/Hackathon-Suite";
+}
+
+document.getElementById("repo-btn").onclick = function () {
+    location.href = "https://github.com/LanguageBytes/Junior-Dev-Job-Search-Engine";
 }
 
 document.getElementById("readme-btn").onclick = function () {
